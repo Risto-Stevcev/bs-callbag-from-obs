@@ -1,0 +1,24 @@
+{
+  "name": "bs-callbag-from-obs",
+  "version": "1.0.0",
+  "sources": [{
+    "dir" : ".",
+    "files": ["CallbagFromObs.ml"]
+  }, {
+    "dir": ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
