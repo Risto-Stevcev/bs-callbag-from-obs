@@ -1,6 +1,6 @@
 {
   "name": "@ristostevcev/bs-callbag-from-obs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
